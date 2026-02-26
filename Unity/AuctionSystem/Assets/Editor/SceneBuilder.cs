@@ -151,11 +151,17 @@ public static class SceneBuilder
         var goldText = CreateTMPText(header.transform, "GoldText", "0G",
             new Vector2(370, 0), new Vector2(160, 48), 22, FontStyles.Bold, AccentGold);
         var notifBtn = CreateButton(header.transform, "NotificationButton", "알림",
-            new Vector2(560, 0), new Vector2(100, 40), BgSurface, Border, TextSecondary);
+            new Vector2(460, 0), new Vector2(100, 40), BgSurface, Border, TextSecondary);
         var inventoryBtn = CreateButton(header.transform, "InventoryButton", "내 인벤토리",
-            new Vector2(700, 0), new Vector2(150, 40), BgSurface, Border, TextSecondary);
+            new Vector2(600, 0), new Vector2(150, 40), BgSurface, Border, TextSecondary);
+        var screenModeBtn = CreateButton(header.transform, "ScreenModeButton", "전체화면",
+            new Vector2(740, 0), new Vector2(120, 40), BgSurface, Border, TextSecondary);
         var logoutBtn = CreateButton(header.transform, "LogoutButton", "로그아웃",
-            new Vector2(862, 0), new Vector2(120, 40), BgSurface, Border, TextSecondary);
+            new Vector2(882, 0), new Vector2(120, 40), BgSurface, Border, TextSecondary);
+
+        var screenModeUI = header.AddComponent<AuctionSystem.UI.ScreenModeUI>();
+        SetPrivateField(screenModeUI, "toggleButton", screenModeBtn.GetComponent<Button>());
+        SetPrivateField(screenModeUI, "buttonLabel",  screenModeBtn.GetComponentInChildren<TMP_Text>());
 
         var filterBar = CreatePanel(auctionPanel.transform, "FilterBar",
             new Vector2(-200, 450), new Vector2(820, 48), BgSurface);
