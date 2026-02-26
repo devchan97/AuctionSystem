@@ -197,7 +197,7 @@ npm run dev
 
 루트프로젝트 -> Web -> AuctionSystem 을 Vercel Web 배포한 링크입니다. 
 
-- *[*[Vercel(#)*](https://auction-system-woad.vercel.app/)*
+- *(https://auction-system-woad.vercel.app/)*
 
 ---
 
@@ -205,7 +205,7 @@ npm run dev
 
 Unity PC 빌드는 별도 배포됩니다. (WebGL 미포함 — 키 보안 이슈로 제외)
 
-- *[*[Google Drive에서 다운로드](#)*](https://drive.google.com/file/d/1NmnWl1MG1tNy-FOiHLnkqzz6yyb2zBA0/view?usp=sharing)*
+- *(https://drive.google.com/file/d/1JOFnfnorpwOmb6tKrnUptOx3gtZuxep1/view?usp=sharing)*
 
 > Windows 전용 빌드입니다. 다운로드 후 압축 해제 → `AuctionSystem.exe` 실행
 
