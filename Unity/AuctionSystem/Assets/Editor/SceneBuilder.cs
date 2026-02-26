@@ -86,20 +86,20 @@ public static class SceneBuilder
         var loginPanel = CreateFullscreenPanel(canvasGO.transform, "LoginPanel", BgBase);
 
         var loginCard = CreateRoundedCard(loginPanel.transform, "LoginCard",
-            Vector2.zero, new Vector2(480, 520), BgCard, Border);
+            Vector2.zero, new Vector2(480, 600), BgCard, Border);
 
         CreateTMPText(loginCard.transform, "TitleText", "AuctionHouse",
-            new Vector2(0, 190), new Vector2(420, 60), 36, FontStyles.Bold, TextPrimary);
+            new Vector2(0, 235), new Vector2(420, 60), 36, FontStyles.Bold, TextPrimary);
 
         CreateTMPText(loginCard.transform, "EmailLabel", "EMAIL",
-            new Vector2(0, 125), new Vector2(400, 24), 14, FontStyles.Bold, TextMuted);
+            new Vector2(0, 170), new Vector2(400, 24), 14, FontStyles.Bold, TextMuted);
         var emailInput = CreateInputField(loginCard.transform, "EmailInput",
-            new Vector2(0, 80), new Vector2(400, 48), "Enter your email", TMP_InputField.ContentType.EmailAddress);
+            new Vector2(0, 125), new Vector2(400, 48), "Enter your email", TMP_InputField.ContentType.EmailAddress);
 
         CreateTMPText(loginCard.transform, "PasswordLabel", "PASSWORD",
-            new Vector2(0, 35), new Vector2(400, 24), 14, FontStyles.Bold, TextMuted);
+            new Vector2(0, 80), new Vector2(400, 24), 14, FontStyles.Bold, TextMuted);
         var pwInput = CreateInputField(loginCard.transform, "PasswordInput",
-            new Vector2(0, -5), new Vector2(400, 48), "Enter your password", TMP_InputField.ContentType.Password);
+            new Vector2(0, 35), new Vector2(400, 48), "Enter your password", TMP_InputField.ContentType.Password);
 
         var errorText = CreateTMPText(loginCard.transform, "ErrorText", "",
             new Vector2(0, -70), new Vector2(400, 36), 14, FontStyles.Normal, StateError);
