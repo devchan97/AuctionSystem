@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/c/Program Files/nodejs/node\":*)",
+      "Bash(which git 2>/dev/null && git --version 2>/dev/null)",
+      "WebFetch(domain:supabase.com)",
+      "WebSearch",
+      "Bash(tail:*)",
+      "Bash(cd \"/c/Users/stowi/.claude/mcp/mcp-unity/Server~\" && npm run build 2>&1)",
+      "Bash(claude mcp:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\(''mcpServers'', {}\\), indent=2\\)\\)\")",
+      "Bash(node:*)",
+      "mcp__mcp-unity__get_console_logs",
+      "mcp__mcp-unity__add_package",
+      "mcp__mcp-unity__recompile_scripts",
+      "mcp__mcp-unity__get_scene_info",
+      "mcp__mcp-unity__get_gameobject",
+      "mcp__mcp-unity__batch_execute",
+      "mcp__mcp-unity__update_component",
+      "mcp__mcp-unity__execute_menu_item",
+      "mcp__mcp-unity__update_gameobject",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(python:*)",
+      "mcp__mcp-unity__save_scene",
+      "mcp__mcp-unity__select_gameobject",
+      "mcp__mcp-unity__send_console_log",
+      "Bash(python3:*)",
+      "Bash(where python:*)",
+      "Bash(py:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:assetstore.unity.com)",
+      "Bash(wc:*)",
+      "Bash(curl -s \"https://api.github.com/repos/devchan97/AuctionSystem/commits?per_page=10\" | python3 -c \"import json,sys; commits=json.load\\(sys.stdin\\); [print\\(c['sha'][:7], c['commit']['message'][:60]\\) for c in commits]\" 2>&1)",
+      "Bash(curl:*)",
+      "Bash(cd \"C:\\\\Users\\\\stowi\\\\OneDrive\\\\Desktop\\\\Unity\\\\Auction System Web-Unity-Supabase\" && git init && git remote add origin https://github.com/devchan97/AuctionSystem.git 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\stowi\\\\OneDrive\\\\Desktop\\\\Unity\\\\Auction System Web-Unity-Supabase\" && git add README.md && git commit -m \"docs: initial README\" 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\stowi\\\\OneDrive\\\\Desktop\\\\Unity\\\\Auction System Web-Unity-Supabase\" && git branch -M main && git push --force origin main 2>&1)",
+      "Bash(cd C:\\\\Users\\\\stowi\\\\OneDrive\\\\Desktop\\\\Unity\\\\Auction System Web-Unity-Supabase:*)"
+    ]
+  }
+}

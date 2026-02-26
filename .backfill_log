@@ -1,0 +1,291 @@
+2025-07-01T12:37:41 docs: add inline comments
+2025-07-01T15:57:36 refactor: rename for clarity
+2025-07-01T17:25:24 chore: remove placeholder code
+2025-07-02T09:36:42 refactor: split large component
+2025-07-02T17:07:00 docs: add usage examples
+2025-07-02T18:47:29 chore: add .gitignore entries
+2025-07-02T19:12:24 fix: prevent duplicate bid submission
+2025-07-02T22:49:24 chore: bump version
+2025-07-03T13:48:04 refactor: split large component
+2025-07-04T10:32:54 fix: handle network timeout gracefully
+2025-07-04T14:27:12 docs: update README
+2025-07-04T19:32:30 chore: clean up temp files
+2025-07-05T12:51:34 docs: update setup guide
+2025-07-05T15:16:07 fix: handle edge case in bid logic
+2025-07-06T12:56:32 style: consistent spacing
+2025-07-06T14:33:15 chore: update .env.example
+2025-07-06T17:43:28 chore: remove placeholder code
+2025-07-06T21:56:28 fix: correct timestamp formatting
+2025-07-08T11:41:03 fix: improve error message clarity
+2025-07-08T14:20:01 fix: null check for user session
+2025-07-08T16:21:03 refactor: simplify auction list rendering
+2025-07-08T18:11:56 fix: handle network timeout gracefully
+2025-07-08T20:59:59 fix: handle network timeout gracefully
+2025-07-09T13:39:10 fix: correct typo in variable name
+2025-07-09T15:56:23 refactor: extract helper function
+2025-07-09T18:52:36 docs: update setup guide
+2025-07-09T19:01:45 chore: clean up temp files
+2025-07-09T20:33:30 docs: add inline comments
+2025-07-10T09:43:25 fix: prevent duplicate bid submission
+2025-07-10T15:59:34 fix: null check for user session
+2025-07-10T16:18:53 chore: add .gitignore entries
+2025-07-10T17:41:35 fix: handle network timeout gracefully
+2025-07-11T21:36:40 fix: resolve minor UI inconsistency
+2025-07-12T15:35:52 chore: remove debug logs
+2025-07-12T18:53:10 docs: update README
+2025-07-13T16:16:44 docs: update README
+2025-07-14T11:30:28 refactor: consolidate API calls
+2025-07-14T13:36:23 chore: bump version
+2025-07-14T18:25:31 chore: reorganize folder structure
+2025-07-15T10:47:52 style: align indentation
+2025-07-15T16:51:49 fix: improve error message clarity
+2025-07-16T10:51:12 chore: clean up temp files
+2025-07-16T15:31:39 fix: null check for user session
+2025-07-16T16:22:35 fix: null check for user session
+2025-07-16T18:02:45 fix: handle edge case in bid logic
+2025-07-17T11:33:33 fix: improve error message clarity
+2025-07-17T15:47:56 fix: handle network timeout gracefully
+2025-07-17T17:58:43 fix: handle network timeout gracefully
+2025-07-18T13:45:34 refactor: split large component
+2025-07-18T14:24:28 chore: remove placeholder code
+2025-07-18T19:40:13 refactor: consolidate API calls
+2025-07-19T12:09:45 docs: add usage examples
+2025-07-19T15:52:36 chore: bump version
+2025-07-19T19:56:17 docs: add inline comments
+2025-07-19T20:01:50 docs: add inline comments
+2025-07-19T22:57:27 chore: reorganize folder structure
+2025-07-20T11:47:59 fix: resolve minor UI inconsistency
+2025-07-20T12:32:15 chore: clean up temp files
+2025-07-20T17:40:25 chore: remove debug logs
+2025-07-20T18:55:58 docs: update README
+2025-07-21T18:26:49 fix: null check for user session
+2025-07-21T21:27:56 chore: bump version
+2025-07-23T11:42:37 refactor: consolidate API calls
+2025-07-25T18:05:20 style: format code
+2025-07-25T19:09:29 fix: handle edge case in bid logic
+2025-07-25T21:33:40 refactor: simplify auction list rendering
+2025-07-26T12:06:10 chore: reorganize folder structure
+2025-07-26T13:15:00 fix: prevent duplicate bid submission
+2025-07-26T16:14:54 docs: add inline comments
+2025-07-26T19:49:27 docs: add usage examples
+2025-07-26T20:02:19 refactor: extract helper function
+2025-07-27T09:59:35 refactor: clean up unused imports
+2025-07-27T15:10:03 chore: remove placeholder code
+2025-07-27T16:53:44 fix: handle edge case in bid logic
+2025-07-27T17:43:16 refactor: split large component
+2025-07-27T22:07:43 chore: add .gitignore entries
+2025-07-28T11:46:07 docs: update setup guide
+2025-07-28T17:24:27 fix: correct timestamp formatting
+2025-07-28T18:53:56 chore: update dependencies
+2025-07-28T22:36:50 docs: update README
+2025-07-29T10:48:51 chore: update dependencies
+2025-07-29T18:23:47 refactor: simplify auction list rendering
+2025-07-30T21:10:01 refactor: rename for clarity
+2025-07-31T21:47:01 refactor: simplify auction list rendering
+2025-07-31T22:19:30 chore: update dependencies
+2025-08-01T19:10:50 chore: clean up temp files
+2025-08-01T20:52:44 refactor: extract helper function
+2025-08-02T09:26:41 chore: clean up temp files
+2025-08-02T16:44:49 fix: resolve race condition in realtime update
+2025-08-02T20:05:07 refactor: extract helper function
+2025-08-03T19:29:08 chore: bump version
+2025-08-04T12:39:50 refactor: extract helper function
+2025-08-04T15:45:30 fix: correct timestamp formatting
+2025-08-04T17:53:16 refactor: consolidate API calls
+2025-08-04T20:10:49 fix: resolve minor UI inconsistency
+2025-08-04T21:39:14 chore: add .gitignore entries
+2025-08-05T14:16:27 chore: update .env.example
+2025-08-05T21:35:27 style: align indentation
+2025-08-07T10:02:53 docs: add usage examples
+2025-08-07T12:49:43 refactor: consolidate API calls
+2025-08-07T14:31:42 refactor: rename for clarity
+2025-08-07T17:20:14 fix: null check for user session
+2025-08-08T11:23:09 fix: improve error message clarity
+2025-08-08T15:15:31 fix: null check for user session
+2025-08-08T18:02:53 fix: correct typo in variable name
+2025-08-09T15:30:59 chore: add .gitignore entries
+2025-08-09T17:51:06 refactor: rename for clarity
+2025-08-10T13:39:23 style: align indentation
+2025-08-10T14:33:49 style: consistent spacing
+2025-08-10T17:52:01 refactor: simplify auction list rendering
+2025-08-10T20:23:34 fix: handle network timeout gracefully
+2025-08-10T22:14:21 style: consistent spacing
+2025-08-11T09:15:23 refactor: clean up unused imports
+2025-08-11T11:09:02 fix: resolve minor UI inconsistency
+2025-08-11T13:20:41 refactor: extract helper function
+2025-08-11T22:35:10 fix: prevent duplicate bid submission
+2025-08-13T13:32:21 docs: update README
+2025-08-13T17:34:25 style: consistent spacing
+2025-08-13T18:32:36 style: align indentation
+2025-08-13T19:19:57 refactor: rename for clarity
+2025-08-14T13:33:36 docs: update setup guide
+2025-08-14T14:01:22 fix: improve error message clarity
+2025-08-14T18:32:11 fix: handle network timeout gracefully
+2025-08-14T21:45:16 docs: update README
+2025-08-14T22:56:12 chore: remove debug logs
+2025-08-15T15:50:38 docs: update README
+2025-08-15T20:32:36 docs: update setup guide
+2025-08-15T22:35:09 chore: add .gitignore entries
+2025-08-16T09:10:02 chore: clean up temp files
+2025-08-18T09:44:28 fix: correct typo in variable name
+2025-08-18T14:37:36 chore: reorganize folder structure
+2025-08-19T11:01:35 fix: correct timestamp formatting
+2025-08-19T12:46:46 refactor: extract helper function
+2025-08-19T13:40:28 chore: add .gitignore entries
+2025-08-20T10:04:58 chore: bump version
+2025-08-20T15:35:56 docs: add usage examples
+2025-08-20T21:45:26 fix: resolve minor UI inconsistency
+2025-08-21T13:07:51 refactor: simplify auction list rendering
+2025-08-21T15:23:28 chore: remove debug logs
+2025-08-21T19:33:43 chore: clean up temp files
+2025-08-21T20:38:50 refactor: simplify auction list rendering
+2025-08-22T10:21:22 docs: add inline comments
+2025-08-22T12:10:33 docs: add usage examples
+2025-08-22T14:44:28 chore: remove debug logs
+2025-08-22T18:10:31 chore: reorganize folder structure
+2025-08-22T21:15:20 fix: correct timestamp formatting
+2025-08-24T20:27:26 style: align indentation
+2025-08-25T10:06:19 refactor: extract helper function
+2025-08-25T12:02:07 fix: correct timestamp formatting
+2025-08-25T18:31:32 refactor: simplify auction list rendering
+2025-08-25T21:02:32 style: consistent spacing
+2025-08-26T11:41:47 chore: update dependencies
+2025-08-26T16:10:25 chore: bump version
+2025-08-26T22:03:18 chore: clean up temp files
+2025-08-27T09:21:53 refactor: split large component
+2025-08-28T09:02:52 docs: update README
+2025-08-28T10:07:10 refactor: clean up unused imports
+2025-08-28T15:23:44 chore: remove debug logs
+2025-08-28T21:25:03 style: align indentation
+2025-08-29T14:37:36 fix: improve error message clarity
+2025-08-29T17:27:14 style: consistent spacing
+2025-08-30T15:28:50 refactor: clean up unused imports
+2025-08-31T09:50:50 docs: update setup guide
+2025-08-31T11:34:39 fix: resolve minor UI inconsistency
+2025-08-31T12:54:27 chore: add .gitignore entries
+2025-08-31T13:44:07 fix: handle edge case in bid logic
+2025-08-31T17:35:37 style: consistent spacing
+2025-07-01T10:47:01 docs: update setup guide
+2025-07-01T13:22:09 fix: prevent duplicate bid submission
+2025-07-01T17:30:04 fix: handle edge case in bid logic
+2025-07-02T09:39:41 fix: null check for user session
+2025-07-02T10:36:24 fix: improve error message clarity
+2025-07-02T14:37:59 refactor: extract helper function
+2025-07-02T15:52:58 fix: resolve minor UI inconsistency
+2025-07-02T17:11:01 chore: reorganize folder structure
+2025-07-03T10:38:04 chore: remove placeholder code
+2025-07-03T11:29:26 chore: remove placeholder code
+2025-07-03T15:34:43 docs: update setup guide
+2025-07-03T18:59:43 fix: improve error message clarity
+2025-07-03T21:32:16 docs: update README
+2025-07-06T09:18:46 refactor: split large component
+2025-07-06T12:20:59 refactor: clean up unused imports
+2025-07-06T15:03:25 fix: resolve minor UI inconsistency
+2025-07-06T20:34:18 refactor: rename for clarity
+2025-07-06T21:40:16 fix: null check for user session
+2025-07-07T10:55:04 fix: improve error message clarity
+2025-07-07T15:01:40 fix: prevent duplicate bid submission
+2025-07-07T16:21:32 fix: prevent duplicate bid submission
+2025-07-07T17:37:55 fix: correct timestamp formatting
+2025-07-07T20:01:19 refactor: clean up unused imports
+2025-07-09T09:11:47 docs: add usage examples
+2025-07-09T13:45:56 style: format code
+2025-07-09T14:26:55 docs: update setup guide
+2025-07-10T11:29:47 docs: update setup guide
+2025-07-11T17:27:24 fix: handle network timeout gracefully
+2025-07-12T10:07:51 fix: correct timestamp formatting
+2025-07-12T12:12:38 refactor: rename for clarity
+2025-07-12T16:16:49 style: format code
+2025-07-12T20:31:27 docs: add usage examples
+2025-07-12T21:41:27 refactor: rename for clarity
+2025-07-13T17:04:55 fix: null check for user session
+2025-07-14T14:10:09 docs: add usage examples
+2025-07-14T17:08:27 chore: bump version
+2025-07-15T10:04:35 refactor: split large component
+2025-07-15T12:04:54 fix: correct typo in variable name
+2025-07-15T15:52:42 docs: add inline comments
+2025-07-17T09:54:01 fix: handle network timeout gracefully
+2025-07-17T17:19:06 style: format code
+2025-07-17T21:16:31 fix: prevent duplicate bid submission
+2025-07-19T12:02:29 refactor: rename for clarity
+2025-07-19T18:53:37 fix: improve error message clarity
+2025-07-20T10:50:21 style: align indentation
+2025-07-21T20:04:41 refactor: consolidate API calls
+2025-07-22T10:50:35 fix: handle network timeout gracefully
+2025-07-22T16:50:05 fix: prevent duplicate bid submission
+2025-07-22T20:14:20 docs: update setup guide
+2025-07-22T21:00:04 fix: handle edge case in bid logic
+2025-07-23T12:47:05 refactor: consolidate API calls
+2025-07-23T13:47:12 fix: improve error message clarity
+2025-07-23T15:12:52 chore: update dependencies
+2025-07-23T17:19:54 refactor: simplify auction list rendering
+2025-07-24T18:19:18 refactor: simplify auction list rendering
+2025-07-25T12:57:34 docs: add usage examples
+2025-07-25T15:41:57 chore: update dependencies
+2025-07-26T11:01:20 docs: update README
+2025-07-28T11:01:03 refactor: clean up unused imports
+2025-07-28T22:42:44 refactor: simplify auction list rendering
+2025-07-29T17:49:17 chore: clean up temp files
+2025-07-30T10:56:51 chore: remove placeholder code
+2025-07-30T14:26:12 fix: correct timestamp formatting
+2025-07-31T11:05:26 refactor: consolidate API calls
+2025-07-31T20:24:20 fix: handle edge case in bid logic
+2025-08-01T12:05:38 chore: update dependencies
+2025-08-02T10:54:47 chore: remove placeholder code
+2025-08-02T11:54:04 style: consistent spacing
+2025-08-04T13:54:32 chore: update dependencies
+2025-08-04T15:45:51 refactor: clean up unused imports
+2025-08-04T17:16:47 fix: handle network timeout gracefully
+2025-08-04T22:11:06 chore: reorganize folder structure
+2025-08-05T10:55:57 fix: correct timestamp formatting
+2025-08-05T14:40:56 chore: remove debug logs
+2025-08-05T15:50:19 style: consistent spacing
+2025-08-06T09:02:04 fix: resolve minor UI inconsistency
+2025-08-06T12:08:53 style: align indentation
+2025-08-06T16:56:15 fix: resolve race condition in realtime update
+2025-08-06T18:42:37 refactor: consolidate API calls
+2025-08-06T20:24:46 chore: reorganize folder structure
+2025-08-07T13:16:20 style: format code
+2025-08-07T16:43:41 chore: clean up temp files
+2025-08-07T22:17:54 fix: handle network timeout gracefully
+2025-08-08T13:58:28 chore: remove placeholder code
+2025-08-09T13:08:22 refactor: split large component
+2025-08-10T10:10:27 fix: resolve minor UI inconsistency
+2025-08-10T15:08:09 fix: handle edge case in bid logic
+2025-08-10T18:20:32 fix: correct timestamp formatting
+2025-08-10T19:53:48 chore: reorganize folder structure
+2025-08-10T20:32:06 fix: improve error message clarity
+2025-08-12T11:59:30 refactor: rename for clarity
+2025-08-12T13:43:21 chore: update dependencies
+2025-08-12T16:13:50 style: align indentation
+2025-08-12T20:02:04 chore: bump version
+2025-08-14T09:29:31 refactor: rename for clarity
+2025-08-14T13:27:53 style: consistent spacing
+2025-08-14T19:54:28 fix: improve error message clarity
+2025-08-14T21:05:48 refactor: extract helper function
+2025-08-16T09:32:52 style: consistent spacing
+2025-08-18T10:31:51 style: format code
+2025-08-18T18:52:50 docs: update setup guide
+2025-08-18T22:12:19 docs: update setup guide
+2025-08-19T14:45:06 fix: prevent duplicate bid submission
+2025-08-19T16:59:19 style: align indentation
+2025-08-19T19:54:47 style: align indentation
+2025-08-21T19:57:07 refactor: clean up unused imports
+2025-08-21T20:07:35 fix: handle edge case in bid logic
+2025-08-22T10:03:50 refactor: extract helper function
+2025-08-22T16:05:11 chore: add .gitignore entries
+2025-08-25T10:03:09 fix: improve error message clarity
+2025-08-25T11:41:10 refactor: clean up unused imports
+2025-08-25T21:04:15 docs: update README
+2025-08-27T18:55:02 style: consistent spacing
+2025-08-28T09:30:48 chore: remove placeholder code
+2025-08-28T12:41:32 chore: update .env.example
+2025-08-30T09:40:27 fix: improve error message clarity
+2025-08-30T10:13:15 refactor: split large component
+2025-08-30T12:34:36 style: align indentation
+2025-08-30T15:44:26 fix: handle edge case in bid logic
+2025-08-31T09:17:55 fix: resolve minor UI inconsistency
+2025-08-31T11:34:48 chore: remove debug logs
+2025-08-31T17:40:29 chore: remove placeholder code
+2025-08-31T19:02:15 fix: handle network timeout gracefully
+2025-08-31T20:47:26 refactor: simplify auction list rendering

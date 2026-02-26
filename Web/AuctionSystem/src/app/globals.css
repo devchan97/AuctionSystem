@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #fafafa;
+  --foreground: #000000;
+  --border-color: #dbdbdb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ffffff;
+    --border-color: #262626;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.insta-border {
+  border-color: var(--border-color);
+}
+
+/* 피드백 메시지 — 에러/성공 공통 */
+.msg-error {
+  @apply bg-red-50 text-red-600 p-3 rounded-lg border border-red-200 text-sm text-center;
+}
+
+.msg-success {
+  @apply bg-green-50 text-green-700 p-3 rounded-lg border border-green-200 text-sm text-center;
+}
+
+/* 빈 상태 */
+.empty-state {
+  @apply p-12 text-center text-gray-500 border-2 border-dashed rounded-xl w-full;
+}
