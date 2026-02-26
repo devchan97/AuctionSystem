@@ -78,6 +78,7 @@ export default function UnityCallbackPage() {
         }
 
         // PC/Editor: ?from=unity → localhost 콜백 서버로 access_token + refresh_token 전달
+        // fetch(no-cors)는 HTTPS→HTTP Mixed Content로 차단되므로 location.href 리다이렉트 사용
         const searchParams = new URLSearchParams(window.location.search)
         if (searchParams.get('from') === 'unity') {
             const supabase = createClient()
@@ -86,9 +87,9 @@ export default function UnityCallbackPage() {
                 const url = `http://localhost:${UNITY_CALLBACK_PORT}/callback` +
                     `?access_token=${encodeURIComponent(token)}` +
                     (refreshToken ? `&refresh_token=${encodeURIComponent(refreshToken)}` : '')
-                fetch(url, { mode: 'no-cors' }).catch(() => { })
                 setStatus('done')
-                setMessage('✅ Unity 로그인 완료!')
+                setMessage('✅ Unity 로그인 완료! Unity로 이동 중...')
+                window.location.href = url
             })
             return
         }
